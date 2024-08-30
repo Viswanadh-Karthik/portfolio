@@ -1,0 +1,181 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('https://e0.pxfuel.com/wallpapers/846/344/desktop-wallpaper-portfolio.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Background for About and Services */
+#about, #services {
+    background-image: url('https://e0.pxfuel.com/wallpapers/846/344/desktop-wallpaper-portfolio.jpg'); /* Background image for both sections */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white; /* White text color */
+}
+
+/* Text color for Home, Portfolio, and Contact sections */
+#home, #portfolio, #contact {
+    color: white; /* White text color */
+}
+
+/* Card Styles */
+/* Card Styles */
+/* Card Styles */
+.project-card {
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    height: 100%;
+    border: none; /* Removes default border */
+    background: rgba(0, 0, 0, 0.2); /* Semi-transparent background */
+    color: white; /* White text color */
+    padding: 10px; /* Optional padding inside the card */
+    box-shadow: none; /* No shadow by default */
+}
+
+/* Ensure text on the card is white */
+.project-card .card-body {
+    color: white;
+}
+
+.project-card img {
+    width: 100%;
+    height: 200px; /* Adjust this height as needed */
+    object-fit: cover; /* Ensures images cover the space without distortion */
+}
+
+.project-card:hover {
+    transform: scale(1.05); /* Slightly enlarges the card on hover */
+    box-shadow: 0 6px 12px rgba(255, 255, 255, 0.7); /* Increased white shadow on hover */
+}
+
+/* Contact Section Styling */
+#contact {
+    background-image: url('path/to/your/background-image.jpg'); /* Add your background image path here */
+    background-size: cover; /* Ensures the background image covers the entire section */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the background image from repeating */
+    padding: 5rem 0; /* Adds padding to the section */
+}
+
+#contact .container {
+    padding: 0;
+}
+
+#contact h2 {
+    margin-bottom: 2rem;
+    color: #fff; /* Adjust text color to contrast with the background */
+}
+
+form {
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent white background */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+input, textarea {
+    background-color: rgba(255, 255, 255, 0.2); /* Slightly more transparent background for form fields */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Semi-transparent border for fields */
+    color: #fff; /* White text color for visibility */
+}
+
+input::placeholder, textarea::placeholder {
+    color: rgba(255, 255, 255, 0.1); /* Light placeholder text color */
+}
+
+.btn-submit {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid transparent;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 4px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.btn-submit:hover {
+    background-color: #000;
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Skills Section */
+#skills {
+    background: rgba(0, 0, 0, 0.1); /* Slightly transparent background */
+    color: white; /* White text color */
+}
+
+.skill-card {
+    background: rgba(0, 0, 0, 0.1); /* Transparent background for cards */
+    color: white; /* White text color */
+    border: none; /* No border */
+    box-shadow: none; /* No shadow */
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out; /* Transition effects */
+    position: relative; /* Needed for absolute positioning of skill details */
+}
+
+.skill-card:hover {
+    transform: scale(1.05); /* Slightly enlarges the card on hover */
+    box-shadow: 0 6px 12px rgba(255, 255, 255, 0.7); /* White shadow on hover */
+}
+
+.skill-card .card-body {
+    padding: 20px; /* Padding inside the card */
+    position: relative;
+}
+
+.skill-summary {
+    display: block; /* Show summary by default */
+    margin-bottom: 20px; /* Space below summary */
+}
+
+.skill-details {
+    max-height: 0; /* Hide skill details by default */
+    opacity: 0; /* Hide skill details by default */
+    overflow: hidden; /* Hide overflowing content */
+    transition: max-height 0.3s ease, opacity 0.3s ease; /* Smooth transition */
+}
+
+.skill-card:hover .skill-details {
+    max-height: 500px; /* Adjust to fit the content */
+    opacity: 1; /* Show skill details on hover */
+}
+
+.skill-item {
+    margin-bottom: 10px; /* Space between items */
+}
+
+.skill-item span {
+    display: block; /* Make the skill name appear on its own line */
+    font-weight: bold; /* Make skill names bold */
+}
+
+.progress {
+    background: rgba(255, 255, 255, 0.1); /* Transparent background */
+    border-radius: 5px; /* Rounded corners */
+    height: 10px; /* Height of the progress bar */
+    margin-top: 5px; /* Space between skill name and progress bar */
+}
+
+.progress-bar {
+    background-color: white; /* White progress bar */
+    height: 100%; /* Full height of the progress container */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.card-title {
+    margin-bottom: 20px; /* Space below the title */
+}
+
+

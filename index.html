@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">My Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="d-flex justify-content-center align-items-center text-center vh-100">
+        <div>
+            <h1>Welcome to My Portfolio</h1>
+            <p>This is where creativity meets professionalism</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2 class="text-center">About Me</h2>
+            <p class="lead text-center">
+                Hello! I'm P. Viswanadh Karthik, a dedicated web developer with a deep passion for technology and a keen interest in creating innovative digital solutions. With a strong background in web development, I have honed my skills in designing and building dynamic, user-friendly websites and applications. My journey in the tech world has been driven by a desire to craft seamless and engaging online experiences.
+            </p>
+            <p class="lead text-center">
+                In addition to my web development expertise, I have explored the field of data science, where I gained valuable insights into data analysis and machine learning. My hands-on experience includes a 9-month internship where I contributed to various projects, further enhancing my skills and broadening my understanding of the tech landscape.
+            </p>
+            <p class="lead text-center">
+                I am constantly driven by the challenge of solving complex problems and staying ahead of the curve with the latest technologies. Whether it's building robust web applications or delving into data-driven insights, I am passionate about leveraging technology to make a positive impact.
+            </p>
+            <p class="lead text-center">
+                Feel free to connect with me to discuss technology, web development, or any exciting projects you have in mind!
+            </p>
+        </div>
+    </section>
+    
+
+
+<!-- Portfolio Section -->
+<section id="portfolio" class="py-5">
+    <div class="container">
+        <h2 class="text-center">Portfolio</h2>
+        <p class="lead text-center">
+             
+        </p>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card project-card" onclick="window.open('project1.html', '_blank')">
+                    <img src="https://miro.medium.com/v2/resize:fit:1358/1*nwlU17J34ToIIaQW4blOsw.jpeg" class="card-img-top" alt="Spotify Clone">
+                    <div class="card-body">
+                        <h5 class="card-title">Spotify Clone</h5>
+                        <p class="card-text">Built using HTML and CSS.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card project-card" onclick="window.open('project2.html', '_blank')">
+                    <img src="https://i.ytimg.com/vi/WVAghgxDYS4/maxresdefault.jpg" class="card-img-top" alt="Book Recommendation System">
+                    <div class="card-body">
+                        <h5 class="card-title">Book Recommendation System</h5>
+                        <p class="card-text">A system recommending books using Machine Learning.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card project-card" onclick="window.open('project3.html', '_blank')">
+                    <img src="https://i.ytimg.com/vi/9H8U___RQNk/sddefault.jpg" class="card-img-top" alt="Resume Classifier">
+                    <div class="card-body">
+                        <h5 class="card-title">Resume Classifier</h5>
+                        <p class="card-text">Classifying resumes with NLP techniques.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card project-card" onclick="window.open('project4.html', '_blank')">
+                    <img src="https://libertex.com/sites/default/files/styles/blog_detail_hero/public/blog/oil-price-prediction_main.jpg?itok=iBsVM4zk" class="card-img-top" alt="Stock Price Prediction">
+                    <div class="card-body">
+                        <h5 class="card-title">Oil Price Prediction</h5>
+                        <p class="card-text">Using historical data to predict oil prices.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Skills Section -->
+<section id="skills" class="py-5">
+    <div class="container">
+        <h2 class="text-center">Skills</h2>
+        <div class="row">
+            <!-- Web Development Skill Card -->
+            <div class="col-md-4">
+                <div class="card skill-card">
+                    <div class="card-body">
+                        <h5 class="card-title">Web Development</h5>
+                        <div class="skill-summary">
+                            HTML, CSS, Node.js, React, JS, SQL
+                        </div>
+                        <div class="skill-details">
+                            <div class="skill-item" data-percentage="80%">
+                                <span>HTML, CSS</span>
+                                <div class="progress">
+                                    <div class="progress-bar" style="width: 80%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item" data-percentage="70%">
+                                <span>Node.js, React, JS</span>
+                                <div class="progress">
+                                    <div class="progress-bar" style="width: 70%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item" data-percentage="80%">
+                                <span>Java</span>
+                                <div class="progress">
+                                    <div class="progress-bar" style="width: 80%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item" data-percentage="80%">
+                                <span>SQL, MongoDB</span>
+                                <div class="progress">
+                                    <div class="progress-bar" style="width: 80%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Data Science Skill Card -->
+            <div class="col-md-4">
+                <div class="card skill-card">
+                    <div class="card-body">
+                        <h5 class="card-title">Data Science</h5>
+                        <div class="skill-summary">
+                            Python, R, Data Visualization, Machine Learning
+                        </div>
+                        <div class="skill-details">
+                            <div class="skill-item" data-percentage="90%">
+                                <span>Python</span>
+                                <div class="progress">
+                                    <div class="progress-bar" style="width: 90%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item" data-percentage="90%">
+                                <span>Data Visualization</span>
+                                <div class="progress">
+                                    <div class="progress-bar" style="width: 90%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item" data-percentage="80%">
+                                <span>Machine Learning</span>
+                                <div class="progress">
+                                    <div class="progress-bar" style="width: 80%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Editing Skill Card -->
+            <div class="col-md-4">
+                <div class="card skill-card">
+                    <div class="card-body">
+                        <h5 class="card-title">Editing</h5>
+                        <div class="skill-summary">
+                            Content Editing, Proofreading, Copywriting
+                        </div>
+                        <div class="skill-details">
+                            <!-- Detailed info for Editing, if needed -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Contact Me</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-6 col-lg-4">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Your Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email address</label>
+                            <input type="email" class="form-control" id="email" placeholder="Your Email">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea class="form-control" id="message" rows="3" placeholder="Your Message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+
+    <!-- Footer -->
+    <footer class="text-center bg-dark text-white py-4">
+        <p>&copy; 2024 My Portfolio</p>
+        <div class="social-icons">
+            <a href="https://facebook.com" target="_blank" class="text-white me-3">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://instagram.com" target="_blank" class="text-white me-3">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://linkedin.com" target="_blank" class="text-white me-3">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://twitter.com" target="_blank" class="text-white">
+                <i class="fab fa-twitter"></i>
+            </a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
